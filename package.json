@@ -1,0 +1,14 @@
+{
+  "name": "sistema-produtos",
+  "version": "1.0.0",
+  "description": "Sistema completo de gerenciamento de produtos com frontend e backend",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "dev": "cd backend && npm run dev",
+    "install-backend": "cd backend && npm install"
+  },
+  "keywords": ["web", "produtos", "nodejs", "express", "mysql"],
+  "author": "",
+  "license": "ISC"
+}
