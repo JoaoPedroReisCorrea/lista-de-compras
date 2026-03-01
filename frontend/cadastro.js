@@ -64,7 +64,7 @@ async function enviarFormulario(event) {
 
     // Redirecionar para listagem após 2 segundos
     setTimeout(() => {
-      window.location.href = 'index.html';
+      window.location.href = '../index.html';
     }, 2000);
   } else {
     // Erro

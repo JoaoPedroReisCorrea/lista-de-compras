@@ -51,17 +51,17 @@ Você verá:
 
 **MELHOR OPÇÃO - Live Server (VS Code):**
 1. Instale extensão "Live Server" no VS Code
-2. Clique direito em `frontend/index.html`
+2. Clique direito em `index.html`
 3. Selecione "Open with Live Server"
 
 **ALTERNATIVA - Abrir Arquivo Local:**
-- Navegue até `frontend/` no Windows Explorer
+- Navegue até pasta do projeto no Windows Explorer
 - Clique duplo em `index.html`
 
 ## 🎯 Testando o Sistema
 
 ### ✓ Página de Listagem
-1. Vá para `index.html`
+1. Vá para `index.html` (arquivo na raiz do projeto)
 2. Deve mostrar 3 produtos de exemplo (ou vazio)
 
 ### ✓ Cadastro de Novo Produto

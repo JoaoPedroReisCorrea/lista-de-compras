@@ -23,12 +23,12 @@ Atv lista de compras/
 │   ├── package.json          # Dependências Node.js
 │   └── .env                  # Variáveis de ambiente
 ├── frontend/
-│   ├── index.html            # Página de listagem
 │   ├── cadastro.html         # Página de cadastro
-│   ├── style.css             # Estilos globais
 │   ├── api.js                # Utilitários para chamadas à API
 │   ├── listagem.js           # Lógica da página de listagem
-│   └── cadastro.js           # Lógica da página de cadastro
+│   ├── cadastro.js           # Lógica da página de cadastro
+├── index.html                # Página de listagem (deploy no root)
+├── style.css                 # Estilos globais
 ├── setup_banco.sql           # Script para criar banco e tabela
 └── README.md                 # Este arquivo
 ```
@@ -98,16 +98,16 @@ Existem várias opções:
 
 **Opção A: Usar Live Server (recomendado)**
 - Instale a extensão "Live Server" no VS Code
-- Clique com botão direito em `frontend/index.html`
+- Clique com botão direito em `index.html`
 - Selecione "Open with Live Server"
 
 **Opção B: Abrir arquivo local**
-- Abra `frontend/index.html` diretamente no navegador
+- Abra `index.html` diretamente no navegador
 - `Ctrl+O` (Windows) ou `Cmd+O` (Mac)
 
 **Opção C: Usar Python (linha de comando)**
 ```bash
-cd frontend
+# ajuste se estiver usando servidor local (arquivo na raiz)
 python -m http.server 5500
 ```
 Depois acesse `http://localhost:5500`
